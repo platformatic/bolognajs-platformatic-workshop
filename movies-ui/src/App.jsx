@@ -4,7 +4,7 @@ import './App.css'
 // If you did use different namesfor the service, this function names
 // will be different
 import { getMoviesServiceUpperMovies, setBaseUrl } from '../api/api.mjs'
-setBaseUrl('http://127.0.0.1:3042')
+setBaseUrl(import.meta.env.VITE_MOVIES_API)
 
 function App () {
   const [movies, setMovies] = useState([])
