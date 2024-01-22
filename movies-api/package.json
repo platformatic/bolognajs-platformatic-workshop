@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "start": "platformatic start",
+    "test": "node --test test/*/*.test.js"
+  },
+  "devDependencies": {
+    "fastify": "^4.24.3"
+  },
+  "dependencies": {
+    "platformatic": "^1.18.0",
+    "@fastify/static": "latest"
+  },
+  "engines": {
+    "node": "^18.8.0 || >=20.6.0"
+  }
+}
